@@ -1,0 +1,50 @@
+/*Small titles*/
+@mixin span{
+	text-transform: uppercase;
+	font-size: $fontSize;
+	letter-spacing: 0.2em;
+	color: $lightGrey;
+	font-family: "Poppins", san-serif;
+}
+
+/*Titles*/
+@mixin title-text{
+	color: $darkBlue;
+	font: 36px/1.4 'PlayFairdisplay', sans-serif;
+	margin-bottom: 60px;
+}
+
+/*Texts after titles*/
+@mixin paragraph{
+	color: $darkBlueOne;
+	margin-bottom: 50px;
+	font: 24px/1.6 'PlayFairdisplay', sans-serif;
+}
+
+/*Buttons*/
+@mixin buttons{
+	font-size: $fontSize;
+	background-color: #80b7b3;
+	width: 196px;
+	height: 40px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #fff;
+	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.5);
+}
+
+/*Inputs*/
+@mixin inputs{
+	background-color: $inputsColor;
+	height: 45px;
+	width: 247px;
+	border-radius: 25px;
+	padding: 0 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: .2em;
+	border: 1px #616f73 solid;
+	margin-left: 15px;
+	color: #fff;
+}
